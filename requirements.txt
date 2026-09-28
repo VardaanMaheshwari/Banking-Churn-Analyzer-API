@@ -1,0 +1,22 @@
+# Analysis & modelling
+numpy
+pandas
+seaborn
+matplotlib
+missingno
+scikit-learn
+xgboost
+lightgbm
+catboost
+imbalanced-learn
+joblib
+# Notebook
+jupyter
+nbformat
+# API
+fastapi
+uvicorn[standard]
+pydantic
+# UI
+streamlit
+requests

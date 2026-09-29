@@ -1,3 +1,5 @@
+API(Render) URL -> https://banking-churn-analyzer-api.onrender.com
+UI(Streamlit Cloud) URL -> https://banking-churn-analyzer-api-jeqd2zfxshqv7qemfss9zg.streamlit.app/
 # Bank Customer Churn — Analysis & Modelling
 
 End-to-end churn analysis on **10,000 customers** of a European retail bank

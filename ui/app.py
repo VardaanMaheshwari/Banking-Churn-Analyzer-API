@@ -3,7 +3,7 @@ import os
 import requests
 import streamlit as st
 
-API = os.environ.get("CHURN_API_URL", "http://127.0.0.1:8000")
+API = st.secrets.get("CHURN_API_URL", os.environ.get("CHURN_API_URL", "http://127.0.0.1:8000"))
 
 st.set_page_config(page_title="Churn Predictor", page_icon="📊", layout="centered")
 st.title("📊 Bank Customer Churn Predictor")

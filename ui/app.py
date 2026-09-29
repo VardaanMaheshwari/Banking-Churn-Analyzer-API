@@ -4,10 +4,10 @@ import requests
 import streamlit as st
 
 API = st.secrets.get("CHURN_API_URL", os.environ.get("CHURN_API_URL", "http://127.0.0.1:8000"))
-st.write("DEBUG — calling API at:", API)
+
 
 st.set_page_config(page_title="Churn Predictor", page_icon="📊", layout="centered")
-st.title("📊 Bank Customer Churn Predictor")
+st.title("Bank Customer Churn Predictor")
 st.caption("Predicts whether a bank customer is likely to leave — and why.")
 
 col1, col2 = st.columns(2)
